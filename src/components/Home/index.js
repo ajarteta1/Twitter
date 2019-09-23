@@ -25,17 +25,17 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'flex-start',
     position: 'fixed',
   },
+    texto: {
+    marginLeft: '10%',  
+    textAlign: 'justify',
+    border:'blue',
+  },
   aside: {
     height: '100%', 
     marginLeft: theme.spacing(2), 
     textAlign: 'justify',
     position: 'fixed',
     
-  },
-  texto: {
-    marginLeft: '10%',  
-    textAlign: 'justify',
-    height:'20000px'
   }
 
 }));
